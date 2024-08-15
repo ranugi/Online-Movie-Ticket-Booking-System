@@ -1,0 +1,99 @@
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:url(images/home1.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a{
+    color:black;
+    display:flex;
+    display: flex;
+    height:3.8rem;
+    position:relative;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 2rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 20px;
+    background: rgba( 255, 255, 255, 0.3 );
+    width:fit-content;
+    height:fit-content;
+    border: 2px;
+    align-items: flex-start;
+    
+}
+
+.top{
+    background-color:rgb(143, 180, 248);
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+a.active{
+  
+    margin-left: 0;
+    color:rgb(98, 51, 133);
+    background-color:rgb(221, 229, 236);
+}
+
+main {
+    margin-top: 0;
+    margin-left: o;
+}
+  
+                /*===SIDEBAR===*/
+                
+
+aside {
+    width:200px;
+}
+
+aside .sidebar a.active:before{
+    content:"";
+    width:6px;
+    height:100%;
+    background:rgb(143, 180, 248); ;
+}
+
+aside .sidebar a:hover span {
+    margin-left: 1rem;
+}
+
+aside .sidebar a span {
+    transition: all 300ms ease;
+}
+
+aside .sidebar a:last-child {
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+}
+
+aside .sidebar a.active:before {
+    content: "";
+    width:6px;
+    height:100%;
+    background-color: rgb(112, 154, 233);
+}
+
+aside .sidebar {
+    background: rgba( 255, 255, 255, 0.3 );
+    display: flex;
+    flex-direction: column;
+    height: 86vhl;
+    position: relative;
+    top:3rem;
+}
+
+

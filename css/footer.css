@@ -1,0 +1,41 @@
+
+.footer {
+    background-color: #477dba;
+    padding: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+  }
+  
+  .social-media {
+    margin-bottom: 10px;
+    display: flex;
+    align-items:left;
+  }
+  
+  .social-media a {
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+  }
+  
+  .social-media img {
+    width: 30px;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
